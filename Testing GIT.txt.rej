@@ -1,0 +1,8 @@
+diff a/Testing GIT.txt b/Testing GIT.txt	(rejected hunks)
+@@ -5,5 +5,6 @@
+ +Modified by righty
+ +
+ +Lets try adding this line
+++=======
+ +Modified by lefty
+ +>>>>>>> 4th base other attempt rebase

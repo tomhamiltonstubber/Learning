@@ -3,5 +3,5 @@ Is
 My
 Test
 
-Today is Thursday
-Tomorrow is Friday
+Today is Wednesday
+Tomorrow is Thursday

@@ -1,27 +1,7 @@
-third push
-Modified by lefty
-Modified by righty
-Lets try adding this line
-1 One
-2	Two
-3		Three
-4
-5	five
-6	six
-7	seven
-8	1222
-9	122
-0	12
-8	eight
-9	nine
-0	ten
-1
-2
-3
-4
-5
-6
-7
-8 eight
-9	Nine
-10		Ten
+This
+Is
+My
+Test
+
+Today is Thursday
+Tomorrow is Friday

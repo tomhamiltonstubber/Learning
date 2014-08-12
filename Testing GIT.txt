@@ -1,9 +1,0 @@
-third push
-Modified by lefty
-<<<<<<< HEAD
-Modified by righty
-
-Lets try adding this line
-=======
-Modified by lefty
->>>>>>> 4th base other attempt rebase

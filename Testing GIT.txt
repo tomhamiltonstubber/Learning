@@ -1,3 +1,2 @@
-<<<<<<< HEAD
-second push.
-Modified by bigmonitor
+third push
+Modified by lefty

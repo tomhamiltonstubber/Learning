@@ -8,5 +8,9 @@ Tomorrow is Thursday
 Today is Friday
 Tomorrow is Saturday
 >>>>>>> no message
+<<<<<<< HEAD
 =======
+>>>>>>> no message
+=======
+HELLO
 >>>>>>> no message

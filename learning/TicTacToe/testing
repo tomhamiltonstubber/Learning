@@ -1,0 +1,10 @@
+def move_legal():
+	if(3==2):
+		return "yes"
+	elif(3==3):
+		return "no"
+
+if move_legal() == "yes":
+	print(move_legal())
+else:
+	print(move_legal())

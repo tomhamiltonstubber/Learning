@@ -1,0 +1,12 @@
+This
+Is
+My
+Test
+<<<<<<< HEAD
+Tomorrow is Thursday
+=======
+Today is Friday
+Tomorrow is Saturday
+>>>>>>> no message
+=======
+>>>>>>> no message

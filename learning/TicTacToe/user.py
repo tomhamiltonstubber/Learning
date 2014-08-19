@@ -11,7 +11,8 @@ class Players:
             if player == "p1":
                 move = True
                 sym = "X"
-                while move == True: #Had to have this to make sure you cant go in a filled space
+                while move == True: #Had to have this to make sure you cant go 
+                                    #in a filled space
                     self.myboard.print_board()
                     pos = raw_input("Where would you like to go?")
                     if pos in ["1","2","3","4","5","6","7","8","9"]:
@@ -43,6 +44,5 @@ class Players:
                 else:
                     player = "p1"
         return True
-
     def clean_board(self):
         self.myboard.wipe_board()

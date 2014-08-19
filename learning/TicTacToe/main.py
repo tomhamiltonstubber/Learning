@@ -1,6 +1,6 @@
 import sys
-import user
+from thegame import Game
 
 if __name__ == '__main__':
-    start = user.players()
+    start = Game()
     start.decide_first_go()

@@ -21,6 +21,7 @@ class Game():
     def end_game(self):
         goagain = raw_input("Would you like to try again? Y/N?")
         if (goagain == 'y') or (goagain == 'Y'):
+            self.players.clean_board()
             self.decide_first_go()
         elif (goagain == 'n') or (goagain == 'N'):
             print("Thanks for playing!")

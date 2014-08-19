@@ -39,3 +39,6 @@ class Gameboard:
         if (self.boardlist[0] == "X" or self.boardlist[0] =="O") and (self.boardlist[1] == "X" or self.boardlist[1] =="O") and (self.boardlist[2] == "X" or self.boardlist[2] =="O") and (self.boardlist[3] == "X" or self.boardlist[3] =="O") and (self.boardlist[4] == "X" or self.boardlist[4] =="O") and (self.boardlist[5] == "X" or self.boardlist[5] =="O") and (self.boardlist[6] == "X" or self.boardlist[6] =="O") and (self.boardlist[7] == "X" or self.boardlist[7] =="O") and (self.boardlist[8] == "X" or self.boardlist[8] =="O"):
             print("It's a draw!")
             return True
+
+    def wipe_board(self):
+        boardlist = ["1","2","3","4","5","6","7","8","9"]

@@ -1,5 +1,6 @@
-from user import Players
 from random import randrange
+from sys import exit
+from user import Players
 
 class Game():
     players = Players()
@@ -17,12 +18,12 @@ class Game():
                 self.end_game()
 
     #User decides whether to play again
-    def end_game():
+    def end_game(self):
         goagain = raw_input("Would you like to try again? Y/N?")
         if (goagain == 'y') or (goagain == 'Y'):
             self.decide_first_go()
         elif (goagain == 'n') or (goagain == 'N'):
             print("Thanks for playing!")
-            sys.exit()
+            exit()
         else:
             self.end_game()

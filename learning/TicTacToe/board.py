@@ -30,8 +30,10 @@ class Gameboard:
     def check_board(self, symbol):
         if (self.boardlist[0] == self.boardlist[1] == self.boardlist[2]) or (self.boardlist[3] == self.boardlist[4] == self.boardlist[5]) or (self.boardlist[6] == self.boardlist[7] == self.boardlist[8]) or (self.boardlist[0] == self.boardlist[3] == self.boardlist[6]) or (self.boardlist[1] == self.boardlist[4] == self.boardlist[7]) or (self.boardlist[2] == self.boardlist[5] == self.boardlist[8]) or (self.boardlist[0] == self.boardlist[4] == self.boardlist[8]) or (self.boardlist[2] == self.boardlist[4] == self.boardlist[6]):
             if symbol == "X":
+                self.print_board()
                 print("You win! Well done!")
             else:
+                self.print_board()
                 print("You lose! Bad luck!")
             return True
         if (self.boardlist[0] == "X" or self.boardlist[0] =="O") and (self.boardlist[1] == "X" or self.boardlist[1] =="O") and (self.boardlist[2] == "X" or self.boardlist[2] =="O") and (self.boardlist[3] == "X" or self.boardlist[3] =="O") and (self.boardlist[4] == "X" or self.boardlist[4] =="O") and (self.boardlist[5] == "X" or self.boardlist[5] =="O") and (self.boardlist[6] == "X" or self.boardlist[6] =="O") and (self.boardlist[7] == "X" or self.boardlist[7] =="O") and (self.boardlist[8] == "X" or self.boardlist[8] =="O"):
